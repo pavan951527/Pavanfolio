@@ -1,11 +1,13 @@
 
-const API_URL = `http://${window.location.host}/api/posts/`;
-const API_URL_REF = `http://${window.location.host}/`;
+const API_URL = `https://${window.location.host}/api/posts/`;
+const API_URL_REF = `https://${window.location.host}/`;
 
 window.onload=()=>{
      getPost();
  
 }
+
+
 
 
 const getPost = () =>{

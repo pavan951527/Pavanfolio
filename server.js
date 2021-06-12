@@ -11,6 +11,10 @@ app.use((req , res , next)=>{
     next();
 })
 
+
+
+
+
 app.get("/",function(req,res){
     res.sendFile(__dirname+"/frontend/html/app.html");
 })
@@ -20,7 +24,7 @@ app.get("/contact",function(req,res){
 })
 
 app.get("/api/posts"  , (req , res)=>{
-     res.status(200).send(postsData.get());
+     res.send(postsData.get());
 });
 app.get("/api/posts/:post_id" , (req , res)=>{
     const postId = req.params.post_id;
