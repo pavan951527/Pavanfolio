@@ -168,7 +168,7 @@ body {
 }
 .postssub {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("/images/IMG_9639.JPG");
+    url("/images/viratkohli.jpg");
 }
 .dateAcontent {
   color: white;
@@ -185,8 +185,9 @@ body {
   color: black;
   position: fixed;
   right: 291px;
-  background-image: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
+  background-color: brown;
   bottom: 10px;
+
   border-radius: 3px;
 }
 .buttontext a {
