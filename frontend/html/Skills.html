@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href="/css/Skills.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Skills</title>
+</head>
+<style>
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        background: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-decoration: none;
+    }
+     .nav{
+        background: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+<body style="margin:0%;" style = "border:0%;">
+    <div class="nav">
+    <div class="name"> <h1>S.Pavan kumar reddy</h1></div>
+    <div class="nav-options"  id="navopt">
+        <ul class="ul">
+            <li class="list" id="list1"><a href="/html/app.html">Home</a></li>
+            <li class="list" id="list2"><a href="/frontend/html/">Portfolio</a></li>
+            <li class="list" id="list3"><a href="/html/Skills.html">Skills</a></li>
+            <li class="list" id="list4"><a href="/html/blog.html">Blog</a></li>
+            <li class="list" id="list5"><a href="/html/Contact.html">Contact</a></li>
+        </ul>
+   </div>
+   <div class="burger" id="burger1"><a ><i class="fa fa-bars"></i></a></div>
+    </div>
+
+
+
+
+    <div class="myallskills" id="allskills">
+        <div class="mySkill" id="Skill">
+            <div class="skillHeading1">
+                 <h1>Programming Languages</h1>
+            </div>
+            <div class="description1">
+                 <ul>
+                     <li>C</li>
+                     <li>C++</li>
+                     <li>Python</li>
+                     <li>Javascript</li>
+                 </ul>
+            </div>
+        </div>
+        <div class="mySkill" id="Skill">
+            <div class="skillHeading1">
+                 <h1>Data Science</h1>
+            </div>
+            <div class="description1">
+              <p>I know how to play with data with appropriate statistics. You can see some of my Data Science projects in my Portfolio section. I'd learned when and where to use Machine learning tools to predict the data outcome. I use Python as my programming language in data science.</p>
+            </div>
+        </div>
+        <div class="mySkill" id="Skill">
+            <div class="skillHeading1">
+                 <h1>Web Development</h1>
+            </div>
+            <div class="description1">
+                 <p>
+                    <p>I'm quite interested in this skill because it helps us to apply our programming skills. You can see some of my full stack projects in my Portfolio section.</p>
+                 </p>
+            </div>
+        </div>
+    </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<script>
+
+const ulSlide = () =>{
+
+const burger = document.querySelector(".burger");
+const ul = document.querySelector(".ul");
+burger.addEventListener("click" , ()=>{
+ul.classList.toggle("ul-active");
+
+
+});
+}
+
+ulSlide();
+</script>
+
+</body>
+</html>

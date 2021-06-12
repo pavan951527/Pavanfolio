@@ -1,0 +1,68 @@
+.back {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  margin-top: 23px;
+  background-image: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
+
+  background-size: cover;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+}
+.back a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.back a:hover {
+  color: rgb(212, 205, 205);
+}
+.back:hover {
+  color: rgb(212, 205, 205);
+}
+
+.postImage {
+  margin-top: 50px;
+  height: 400px;
+}
+
+.postimg {
+  display: flex;
+  justify-content: center;
+  margin: 95px auto;
+  height: 400px;
+}
+.postimg img {
+  width: 350px;
+  height: 400px;
+}
+
+.postTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.postDate {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #faf0e6;
+  background-color: #faf0e6;
+}
+.postContent {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #faebd7;
+  background-color: #faebd7;
+}
