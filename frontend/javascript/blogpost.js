@@ -1,6 +1,6 @@
 
-const API_URL = `http://localhost:3000/api/posts/`;
-const API_URL_REF = `http://localhost:3000/`;
+const API_URL = `http://${window.location.host}/api/posts/`;
+const API_URL_REF = `http://${window.location.host}/`;
 
 
 window.onload = ()=>{
