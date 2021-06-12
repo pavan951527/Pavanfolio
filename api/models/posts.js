@@ -1,6 +1,7 @@
-const { json } = require("express");
+
 
 const PATH = "./data.json";
+
 
 
 class Post {
